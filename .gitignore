@@ -1,0 +1,6 @@
+Sergienko/
+__pycache__/
+*.pyc
+.vscode/
+languages_*.txt
+text_*.txt

@@ -1,0 +1,7 @@
+{
+    "file_name": "source.txt",
+    "target_lang": "hi",
+    "module": "module1",
+    "output": "screen",
+    "max_sentences": 5
+}
