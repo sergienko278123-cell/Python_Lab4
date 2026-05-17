@@ -2,7 +2,7 @@ import sys
 from googletrans import Translator, LANGUAGES
 
 def check_version():
-    if sys.version_info >= (3, 13):
+    if sys.version_info >= (3, 11):
         print("Warning: This module is intended for Python versions < 3.13.")
 
 def TransLate(text, src, dest):
@@ -35,3 +35,10 @@ def LanguageList(out="screen", text=None):
     # Логіка аналогічна module1, але синхронна
     print("Listing languages (Module 2)...")
     return "Ok"
+
+# ==========================================
+# ДОДАНО: Блок для запуску коду
+# ==========================================
+if __name__ == "__main__":
+    # Викликаємо функцію перевірки, щоб текст з'явився на екрані
+    check_version()
